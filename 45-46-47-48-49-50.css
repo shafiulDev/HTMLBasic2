@@ -1,0 +1,25 @@
+.a{
+	height:200px;
+	width:200px;
+	background-color:red;
+	transition:all 1s;
+
+}
+.a:hover{
+	height:400px;
+	width:400px;
+	background-color:yellow;
+	transform:rotate(360deg) ;
+	-o-transform:rotate(360deg) ;
+	-ms-transform:rotate(360deg) ;
+	-webkit-transform:rotate(360deg) ;
+	-moz-transform:rotate(360deg) ;
+}
+
+.b{
+	background-image:url(img/flower.jpg);
+
+	background-attachment:unset;
+	
+}
+

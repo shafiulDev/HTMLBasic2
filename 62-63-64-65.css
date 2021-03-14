@@ -1,0 +1,73 @@
+.titorial62{
+	height:160px;
+	width:160px;
+	background-color:red;
+	
+	animation-name:shafiul;
+	animation-duration:3s;
+    animation-iteration-count:4;
+}
+@keyframes shafiul{
+	
+	from{background-color:red}
+	to{background-color:yellow; border-radius:80%;}
+}
+
+
+
+.titorial63{
+	height:160px;
+	width:160px;
+	background-color:red;
+	
+	animation-name:sakil;
+	animation-duration:4s;
+    animation-iteration-count:4;
+}
+@keyframes sakil{
+
+	0%{background-color:red}
+	20%{background-color:gray}
+	40%{background-color:green}
+	60%{background-color:black; border-radius:90%;}
+	90%{background-color:blue;}
+	100%{background-color:yellow}
+}
+
+
+.titorial64{
+	height:160px;
+	width:160px;
+	background-color:red;
+	position:relative;
+	
+	animation-name:pervez;
+	animation-duration:3s;
+    animation-iteration-count:4;
+	animation-direction:alternate;
+}
+@keyframes pervez{
+	from{left:0%}
+	to{ left:200px}
+}
+
+
+.titorial65{
+	
+	height:160px;
+	width:160px;
+	background-color:red;
+	position:relative;
+	
+	animation-name:ismail;
+	animation-duration:4s;
+    animation-iteration-count:4;
+	
+}
+@keyframes ismail{
+	0%{left:0px;	 top:0px;  background-color:yellow; }
+	25%{left:100px;  top:0px;  background-color:black; }
+	50%{left:100px;  top:100px;background-color:blue; }
+	75%{left:0px;    top:100px;background-color:white; }
+	100%{left:0px;   top:0px;  background-color:pink;}	
+}

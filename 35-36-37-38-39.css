@@ -1,0 +1,36 @@
+table{
+	width:500px;
+	height:200px;
+	margin: 0px auto;
+	
+	background-color:yellow;
+	border-collapse:collapse;
+	text-align:center;
+	
+}
+table caption{
+	background-color:yellow;
+}
+table, th, td, tr{
+	border:3px solid blue;
+}
+.div1{
+	width:350px;
+	height:150px;
+	background-color:yellow;
+	margin-left:50px;
+}
+.div2{
+	width:350px;
+	height:150px;
+	margin-top:20px;
+	margin-left:50px;
+	background-color:green;
+	padding:32px;
+}
+h1{text-align:center;}
+#main_div>p{
+	text-align:center;
+	
+	color:blue;
+}
